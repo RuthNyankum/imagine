@@ -79,3 +79,67 @@ const tweet1 = {
   for (let i = 0; i <= 10; i++) {
     console.log('Notify friends!', i);
   }
+
+  // Functions
+// Defining functions
+function login(username, password) {
+  if (username == 'Ruth' && password == '1234') {
+    return 'User is logged in!';
+  } else if ('username != Ruth') {
+    return 'Invalid username!';
+  } else if (password != '1234') {
+    return 'Invalid password!';
+  } {
+    return 'Invalid username or password'
+  }
+}
+
+// Invoking functions
+login('Ruth', '1234');
+
+// Basic Arithmetic
+12 + 34;
+15 - 16;
+7 * 12;
+78 / 4;
+78 % 4;
+
+// Comparison operators
+2 === 2;
+3 !== 2;
+3 !== 3;
+
+// Built-in Math functions
+Math.round(37 / 24);
+Math.floor(37 / 24);
+Math.ceil(37 / 24);
+Math.random();
+Math.max(12, 14, 89);
+
+// Order of operations
+1 * 2 + 3 - 4 / 2 % 2**2;
+
+// Handling user inputs
+1200 + Number('250');
+
+// String concatenation
+const firstname = 'Ruth';
+const lastname = 'Nyankum';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal`
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.toLowerCase();
+lastname.charAt (1);
+firstname.charAt (0);
+`${firstname.trim().charAt(0)} ${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
