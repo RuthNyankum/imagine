@@ -122,24 +122,3 @@ Math.max(12, 14, 89);
 // Handling user inputs
 1200 + Number('250');
 
-// String concatenation
-const firstname = 'Ruth';
-const lastname = 'Nyankum';
-firstname.trim() + ' ' + lastname.trim();
-
-// Template literal`
-`${firstname.trim()} ${lastname.trim()}`;
-
-// String methods
-firstname.length;
-lastname.length;
-`${firstname.trim()} ${lastname.trim()}`.length;
-(firstname.trim() + ' ' + lastname.trim()).length;
-firstname.toUpperCase();
-lastname.toLowerCase();
-lastname.charAt (1);
-firstname.charAt (0);
-`${firstname.trim().charAt(0)} ${lastname.trim().charAt(0)}`;
-
-// String conversion
-String(2014);
