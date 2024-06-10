@@ -122,3 +122,53 @@ Math.max(12, 14, 89);
 // Handling user inputs
 1200 + Number('250');
 
+// String concatenation
+const firstname = 'Ruth';
+const lastname = 'Nyankum';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal`
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.toLowerCase();
+lastname.charAt (1);
+firstname.charAt (0);
+`${firstname.trim().charAt(0)} ${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
+
+
+// Write a function that will add a participant to our Google Classroom
+const participants = [];
+function addParticipant (email) {
+  // Check if email was provided
+  if (!email) {
+    return 'Email not provided';
+  }
+  // Check if email is valid
+  if (!email.includes ('@')) {
+    return 'Invalid email provided!';
+  }
+  // Add email to the participant
+  // adding participant in an array requires.push
+  participants.push(email);
+  // Notify them via email
+  // return response
+  return 'Participant added!';
+}
+
+addParticipant('nana.nyankum99@gail.com');
+
+// Arrays in JavaScript
+// Arrays to string using join 
+const alphabets = ['A', 'B', 'C',  'D'];
+alphabets;
+alphabets.join(' ');
+alphabets.join(' ').split(' ');
